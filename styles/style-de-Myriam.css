@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+html
+{
+	font-family: 'Mochiy Pop P One', Regular 400;
+	background: rgb(29,130,0);
+	background: linear-gradient(90deg, rgba(29,130,0,1) 0%, rgba(16,229,41,1) 20%, rgba(0,212,255,1) 35%, rgba(19,19,224,1) 51%, rgba(219,6,214,1) 74%); 
+}
+
+body, div {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: beige;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+img { 
+	float: left; 
+	margin-right: 20px;
+}
+th { width: 200px;}
+ul { list-style-type: square; }
+
+#entete-de-page {
+	padding: 5px;
+	height: 100px;
+	background-color: lightgrey;
+	font-size: 32px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+#bloc-menu {
+	height: 36px;
+	background-color: steelblue;
+	float: center;
+	color: white;
+}
+#contenu {
+	padding: 10px;
+	background-color: beige;
+}
+#infos {
+	color: darkblue;
+	font-style: italic;
+}
+#pied-de-page {
+	padding: 5px;
+	background-color: lightgrey;
+	font-size: 11px;
+}
+#post-scriptum {
+	color: darkblue;
+	font-style: italic;
+}
